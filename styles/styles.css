@@ -6,6 +6,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h2 {
+    color: orange;
+    font-weight: bold;
+    font-size:  2em;
+}
 
 header {
     display: flex;
@@ -243,7 +248,21 @@ main {
     display: block;
 
     width: 20%;
-    height: auto;
+    height: 200px;
+
+    margin-left: 20px;
+    color: #000;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: orange;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.yslugi .add a {
+    color: #000;
+    text-decoration: none;
 }
 
 .yslugi .yslugiList {
