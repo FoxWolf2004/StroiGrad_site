@@ -172,8 +172,10 @@ main {
     background-color: white;
 
     border-radius: 10px;
-    margin: auto;
 
+    
+    margin: auto;
+    margin-top: 20px;
     text-decoration: none;
     
     text-align: center;
