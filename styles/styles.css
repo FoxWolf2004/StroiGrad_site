@@ -1,0 +1,291 @@
+body {
+
+    margin: auto;
+    padding: 0;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+
+    width: 100%;
+    height: 100px;
+
+    margin: 0;
+
+    background: linear-gradient(352deg, rgb(255,139,61) 0%, rgb(255,135,54) 25%, rgb(255,131,48) 50%, rgb(255,126,41) 75%, rgb(255,122,33) 100%);
+
+    color: white;
+
+    border-style: solid;
+
+    border-color: orange;
+
+}
+.logo {
+    display: block;
+
+    width: 10%;
+    height: auto;
+
+    margin-left: 10px;
+
+}
+
+
+
+nav {
+    display: flex;
+
+    width: 80%;
+    height: 50px;
+
+    margin-left: 20%;
+
+
+    margin-top: 1%;
+
+
+
+}
+
+nav ul {
+    display: flex;
+
+    width: 100%;
+    height: auto;
+
+    padding: 0;
+
+    margin: 0;
+
+
+}
+
+nav ul a   {
+
+    display: block;
+
+    width: 50%;
+
+    text-align: center;
+
+    
+}
+header address {
+    display: flex;
+
+    width: 70%;
+    height: auto;
+
+
+    margin-left: 10%;
+
+    padding: 0;
+
+    
+    
+}
+
+.icon {
+    display: block;
+
+    width: 5%;
+    height: 30px;
+    
+}
+
+.icon img {
+    width: 100%;
+    height: auto;
+    
+}
+.tel {
+    display: block;
+
+    width: 35%;
+    height: 50px;
+
+    
+    text-align: center;
+}
+
+main {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    background-color: white;
+    margin: 0;
+
+}
+
+.orage {
+    display: block;
+
+    width: 100%;
+    height: 550px;
+
+    background: linear-gradient(352deg, rgb(255,139,61) 0%, rgb(255,135,54) 25%, rgb(255,131,48) 50%, rgb(255,126,41) 75%, rgb(255,122,33) 100%);
+
+    margin: 0;
+
+
+    text-align: center;
+    color: white;
+
+    
+
+}
+
+.button1 {
+    display: block;
+
+    width: 30%;
+    height: 65px;
+
+    background-color: white;
+
+    border-radius: 10px;
+    margin: auto;
+
+    text-decoration: none;
+    
+    text-align: center;
+    
+}
+.button1 p {
+    display: inline-block;
+
+    
+    
+
+    font-size: 2em;
+
+    padding: 0;
+    margin: 0;
+
+    margin-top: 10px;
+
+}
+.orage h1  {
+    font-size: 5em;
+    margin: auto;
+}
+
+.orage > p {
+    display: block;
+
+    width: 60%;
+    height: auto;
+    font-size: 2em;
+    margin: auto;
+
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+.button1:link {
+    color: rgb(0, 0, 0);
+}
+
+.button1:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.about {
+    display: block;
+
+    width: 50%;
+    height: auto;
+
+
+    margin: auto;
+}
+
+.about img {
+    display: block;
+
+    width: 60%;
+    height: auto;
+
+
+}
+
+.about figcaption {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+
+.yslugi {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+    padding: 10px;
+}
+
+.yslugi .add {
+    display: block;
+
+    width: 20%;
+    height: auto;
+}
+
+.yslugi .yslugiList {
+    display: block;
+    width: 70%;
+    height: auto;
+
+    margin-left: 10px;
+}
+
+.yslugiList a {
+    display: flex;
+    width: 90%;
+    height: 50px;
+
+    border-top: 2px;
+
+    padding: 10px;
+}
+
+.yslugiList a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.price {
+    display: block;
+
+    width: 20%;
+    height: auto;
+
+    margin-left: auto;
+}
+footer {
+    display: flex;
+
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+
+}
