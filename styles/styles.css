@@ -1,11 +1,36 @@
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.he2 {
+    display: block;
+    width: 50%;
+    height: auto;
 
     margin: auto;
-    padding: 0;
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+.he2 > h2 {
+    display: block;
+    width: 100%;
+    height: 50px;
+
+    color: orange;
+    font-weight: bold;
+    font-size:  2em;
+
+    margin-top: 40px;
+    margin-bottom: 0;
+
+
+}
 
 header {
     display: flex;
@@ -19,6 +44,10 @@ header {
 
     color: white;
 
+    box-sizing: border-box;
+
+    border-color: #000 ;
+    
 
 }
 .logo {
@@ -27,11 +56,19 @@ header {
     width: 10%;
     height: auto;
 
-    margin-left: 10px;
+    margin-left: 50px;
 
 }
 
+.logo > img {
+    display: block;
 
+    width: 70%;
+    height: auto;
+
+    margin: auto;
+
+}
 
 nav {
     display: flex;
@@ -39,10 +76,10 @@ nav {
     width: 70%;
     height: 50px;
 
-    margin-left: 20%;
+    margin-left: 18%;
 
 
-    margin-top: 1%;
+    margin-top: 25px;
 
 
 
@@ -51,24 +88,27 @@ nav {
 nav ul {
     display: flex;
 
-    width: 100%;
+    width: 40%;
     height: auto;
 
     padding: 0;
 
-    margin: 0;
+    margin-left: 10%;
 
 
+    list-style: none;
 }
 
 nav ul a   {
 
     display: block;
 
-    width: 50%;
+    width: 40%;
+    height: 50px;
+    
+    font-size: 1.5em;
 
-    text-align: center;
-
+    margin-top: 5px;
     
 }
 header address {
@@ -89,24 +129,40 @@ header address {
 .icon {
     display: block;
 
-    width: 5%;
-    height: 30px;
-    
+    width: 8%;
+    height: auto;
+    margin-left: 5px;
 }
 
 .icon img {
     width: 100%;
     height: auto;
+
+    margin-top: 10px;
     
 }
 .tel {
     display: block;
 
-    width: 35%;
+    width: 50%;
     height: 50px;
 
     
-    text-align: center;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-style:normal;
+
+    font-size: 1.5em;
+    
+}
+
+.tel > p {
+    display: block;
+    width: 100%;
+    height: 25px;
+
+    margin-top: 10px;
 }
 
 main {
@@ -124,7 +180,7 @@ main {
     display: block;
 
     width: 100%;
-    height: 550px;
+    height: 700px;
 
     background: linear-gradient(352deg, rgb(255,139,61) 0%, rgb(255,135,54) 25%, rgb(255,131,48) 50%, rgb(255,126,41) 75%, rgb(255,122,33) 100%);
 
@@ -134,8 +190,7 @@ main {
     text-align: center;
     color: white;
 
-    
-
+    padding-top: 60px;
 }
 
 .button1 {
@@ -147,8 +202,10 @@ main {
     background-color: white;
 
     border-radius: 10px;
-    margin: auto;
 
+    
+    margin: auto;
+    margin-top: 20px;
     text-decoration: none;
     
     text-align: center;
@@ -171,6 +228,7 @@ main {
 .orage h1  {
     font-size: 5em;
     margin: auto;
+    
 }
 
 .orage > p {
@@ -228,7 +286,13 @@ main {
     display: block;
     width: 50%;
     height: auto;
+
+    text-align: justify;
 }
+
+
+
+
 
 
 .yslugi {
@@ -243,7 +307,21 @@ main {
     display: block;
 
     width: 20%;
-    height: auto;
+    height: 200px;
+
+    margin-left: 20px;
+    color: #000;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: orange;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.yslugi .add a {
+    color: #000;
+    text-decoration: none;
 }
 
 .yslugi .yslugiList {
@@ -258,16 +336,22 @@ main {
     display: flex;
     width: 90%;
     height: 50px;
+    border-style: solid;
+    border-color: white;
 
-    border-top: 2px;
-
+    border-top-color: #000;
     padding: 10px;
+
+    font-size: 1.2em ;
 }
 
 .yslugiList a:hover {
     background-color: orange;
     color: white;
 }
+
+
+
 
 .price {
     display: block;
@@ -276,7 +360,115 @@ main {
     height: auto;
 
     margin-left: auto;
+
+    color: #666666;
 }
+
+
+.why {
+    display: block;
+
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.why > h2 {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.whycards {
+    display: flex;
+
+    width: 60%;
+    height: auto;
+    flex-wrap: wrap;
+
+    margin: auto;
+    
+
+}
+
+.wcard {
+    display: block;
+
+    width: 30%;
+    height: 200px;
+
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+}
+
+.wcard:nth-child(n+3):nth-child(-n+4){
+    margin-left: auto;
+}
+
+.wcard:nth-child(n+0):nth-child(-n+1){
+    margin-left: auto;
+}
+
+.wcard > p {
+    margin-left: 20px;
+}
+.wcard > div {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-left: 20px;
+} 
+.wcard > div h2 {
+    display: block;
+
+    width: 60%;
+    height: 50px;
+}
+.wcard > div > img {
+    display: block;
+
+    width: 20%;
+    height: auto;
+
+    fill: rgb(255, 166, 0);
+}
+
+.how {
+    display: block;
+
+    width: 50%;
+    height: auto;
+
+
+    margin: auto;
+}
+
+.how img {
+    display: block;
+
+    width: 60%;
+    height: auto;
+
+
+}
+
+.how figcaption {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+
 footer {
     display: flex;
 
