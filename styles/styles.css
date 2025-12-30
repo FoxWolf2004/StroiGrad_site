@@ -44,7 +44,10 @@ header {
 
     color: white;
 
+    box-sizing: border-box;
 
+    border-color: #000 ;
+    
 
 }
 .logo {
@@ -188,9 +191,6 @@ main {
     color: white;
 
     padding-top: 60px;
-
-    
-
 }
 
 .button1 {
@@ -286,6 +286,8 @@ main {
     display: block;
     width: 50%;
     height: auto;
+
+    text-align: justify;
 }
 
 
@@ -358,6 +360,8 @@ main {
     height: auto;
 
     margin-left: auto;
+
+    color: #666666;
 }
 
 
